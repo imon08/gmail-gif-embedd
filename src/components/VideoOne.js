@@ -12,7 +12,7 @@ const VideoOne = () => {
     <div className="w-screen h-screen flex justify-center items-center relative">
       <video
         ref={vidRef}
-        className="w-[80%]"
+        className="w-[50%]"
         controls
         src="https://joy1.videvo.net/videvo_files/video/free/2014-12/large_watermarked/Metal_Wind_Chimes_at_Sunset_preview.mp4"
       ></video>

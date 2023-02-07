@@ -12,7 +12,7 @@ const VideoTwo = () => {
     <div className="w-screen h-screen flex justify-center items-center relative">
       <video
         ref={vidRef}
-        className="w-[80%]"
+        className="w-full m-4 lg:w-[50%]"
         controls
         src="https://media.istockphoto.com/id/1295316987/video/newborn-kitten-meowing-to-mother.mp4?s=mp4-640x640-is&k=20&c=i4yuhe386uJKole89ig5z8r_FG5lqr_XDJDQ0EE9qDI="
       ></video>
