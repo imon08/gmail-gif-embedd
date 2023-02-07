@@ -9,10 +9,10 @@ const VideoOne = () => {
     vidRef.current.play();
   };
   return (
-    <div className="w-screen h-screen flex justify-center items-center relative">
+    <div className="w-screen h-screen flex justify-center items-center relative p-5">
       <video
         ref={vidRef}
-        className="w-[50%]"
+        className="w-full m-4 lg:w-[50%]"
         controls
         src="https://joy1.videvo.net/videvo_files/video/free/2014-12/large_watermarked/Metal_Wind_Chimes_at_Sunset_preview.mp4"
       ></video>
